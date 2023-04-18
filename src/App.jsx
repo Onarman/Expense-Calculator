@@ -8,10 +8,6 @@ function App() {
    <ThemeContextProvider>
       <ExpensesCalc />
    </ThemeContextProvider>
-        
-    
-
-    
   );
 }
 

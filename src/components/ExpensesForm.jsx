@@ -24,7 +24,7 @@ export default function ExpensesForm({
            />
 
           <label htmlFor="">Amount</label>
-          <input type="number" value={amount} onChange={handleAmount}
+          <input type="number"  min="0" value={amount} onChange={handleAmount}
           placeholder={"e.g. 1500"}
           />
         {edit ? (

@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 // 1- Defination
 export const ThemeContext = createContext({
-  theme: "light",
+  theme: "",
   toggleTheme: () => {},
 });
 
